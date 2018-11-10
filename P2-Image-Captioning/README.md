@@ -1,6 +1,6 @@
 # P2-Image-Captioning-Project
 
-## COCO API Setup
+## 1. Setup COCO API
 ### MacOS/Linux
 1. Clone this repo: https://github.com/cocodataset/cocoapi  
 ```
@@ -16,7 +16,7 @@ cd ..
 ### Windows
 To install COCO API follow steps listed here: https://github.com/philferriere/cocoapi, a fork maintained by [philferriere](https://github.com/philferriere/cocoapi).
 
-## Download Dataset
+## 2. Download Dataset
 Download some specific data from here: http://cocodataset.org/#download (described below)
 
 * Under **Annotations**, download:
@@ -49,4 +49,17 @@ Download some specific data from here: http://cocodataset.org/#download (describ
         └ 📄 ...
 ```
 
-1. The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order (`0_Dataset.ipynb, 1_Preliminaries.ipynb, 2_Training.ipynb, 3_Inference.ipynb`).
+The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order (`0_Dataset.ipynb, 1_Preliminaries.ipynb, 2_Training.ipynb, 3_Inference.ipynb`).
+
+## 3. Download Models (Optional)
+Pre-trained model trained for 1 epoch can be downloaded from below.
+- [encoder-1.pkl](https://www.dropbox.com/s/c7x99fgnbhowrcy/encoder-1.pkl?dl=0)
+- [decoder-1.pkl](https://www.dropbox.com/s/spmzrta00wsfngx/decoder-1.pkl?dl=0)
+
+Store the downloaded models in `models` folder.
+```sh
+📂 [Project-Folder]
+└ 📂 models
+    └ 📄 encoder-1.pkl
+    └ 📄 decoder-1.pkl
+```

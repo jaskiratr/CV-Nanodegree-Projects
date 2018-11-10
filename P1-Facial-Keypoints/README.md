@@ -2,7 +2,7 @@
 
 [image1]: ./images/key_pts_example.png "Facial Keypoint Detection"
 
-# Facial Keypoint Detection
+# P1-Facial-Keypoint-Detection
 
 ## Project Overview
 
