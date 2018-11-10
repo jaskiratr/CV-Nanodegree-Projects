@@ -5,9 +5,9 @@ This repository contains projects submitted for completing Udacity's [Computer V
 
 ## Projects
 
-- **P1- Facial Keypoints**:  Build a facial keypoint detection system.
-- **P2- Image Captioning**: Captioning images from COCO dataset
-- **P3- Implement Slam**: Implementing SLAM algorithm for 2D motion and measurements
+- **P1 - Facial Keypoints Detection**:  Build a facial keypoint detection system.
+- **P2 - Image Captioning**: Captioning images from COCO dataset
+- **P3 - Implementing SLAM**: Implementing SLAM algorithm for 2D motion and measurements
 
 *Note:* The code has been slightly modified for running on local machine with GPU support.
 
@@ -25,21 +25,21 @@ This repository contains projects submitted for completing Udacity's [Computer V
 
 #### Anaconda Setup
 
-Setup a conda environment with Python 3.6
+1. Setup a conda environment with Python 3.6
 
 ```sh
 conda create --name cv-nd-cuda92 python=3.6
 activate cv-nd-cuda92
 ```
 
-Install Pytorch GPU
+2. Install Pytorch GPU
 
 ```sh
 conda install pytorch cuda92 -c pytorch
 pip3 install torchvision
 ```
 
-Install remaining packages
+3. Install remaining packages
 
 ```sh
 pip install -r requirements.txt
